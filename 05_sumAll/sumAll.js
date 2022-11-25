@@ -1,4 +1,9 @@
-const sumAll = function() {
+const sumAll = function(numOne, numTwo) {
+    let holder = 0;
+    for (i = numOne; i<numTwo+1; i++) {
+        holder += i;
+    };
+    return holder;
 
 };
 
